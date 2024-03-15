@@ -146,12 +146,14 @@ a {
 .text a {
     font-size: 16px;
     font-family: Arial Narrow;
+    margin-left: 181px;
 }
 
 /* Style pour les écrans de taille inférieure ou égale à 600px (typiquement des smartphones) */
 @media screen and (max-width: 600px) {
     .text a {
         font-size: 13px;
+        margin-left: 10px;
     }
 }
 
